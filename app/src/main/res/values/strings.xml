@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SQLiteDemo</string>
+    <string name="read">Read</string>
+    <string name="edit">Edit</string>
+    <string name="title_activity_create">CreateActivity</string>
+
+    <string name="hello_world">Hello Square World!</string>
+    <string name="product_name">Product Name</string>
+    <string name="price">Price</string>
+    <string name="create">Create</string>
+    <string name="update">Update</string>
+    <string name="new_price">New Price</string>
+    <string name="delete">Delete</string>
+    <string name="question_mark">\?</string>
+    <string name="nah">Nah</string>
+    <string name="yeah">Yeah</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="image_from_i1_to_i6">Image (from i1 to i6)</string>
+    <string name="new_image_from_i1_to_i6">New Image (from i1 to i6)</string>
+    <string name="your_choice">Your choice:</string>
+    <string name="new_image">New Image:</string>
+</resources>
