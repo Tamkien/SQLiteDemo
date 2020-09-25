@@ -10,7 +10,6 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.bumptech.glide.Glide
 import com.kienct.sqlitedemo.R
 import com.kienct.sqlitedemo.adapter.ImageAdapter
 import com.kienct.sqlitedemo.db.ProductDAO
@@ -24,9 +23,9 @@ class UpdateActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_update)
-        Glide.with(this)
-            .load("https://raw.githubusercontent.com/bumptech/glide/master/static/glide_logo.png")
-            .into(choice2)
+//        Glide.with(this)
+//            .load("https://raw.githubusercontent.com/bumptech/glide/master/static/glide_logo.png")
+//            .into(choice2)
         val productName = intent.getStringExtra("productName")
         editingName.setText(productName)
         val productID = intent.getStringExtra("productID")
